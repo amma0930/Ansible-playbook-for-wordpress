@@ -22,13 +22,17 @@ Create wp-config.php.j2 file (vi) in control server.
 **Do following tasks in target server.
 **
 **Find**
+
 ls /etc/apache2/sites-available/.
 
 **Create **
+
 sudo vi /etc/apache2/sites-available/wordpress.conf
 
 **Restart apache 2**
+
 sudo a2ensite wordpress
+
 sudo service apache2 restart
 Create 
 sudo vi /etc/apache2/sites-available/wordpress.conf
