@@ -1,0 +1,2 @@
+[host]
+private ip ansible_ssh_user=ubuntu
