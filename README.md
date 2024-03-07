@@ -19,13 +19,13 @@ Create playbook.yml in control server.
 
 Create wp-config.php.j2 file (vi) in control server.
 
-**Do following tasks in target server.
-**
+**Do following tasks in target server**
+
 **Find**
 
 ls /etc/apache2/sites-available/.
 
-**Create **
+**Create**
 
 sudo vi /etc/apache2/sites-available/wordpress.conf
 
